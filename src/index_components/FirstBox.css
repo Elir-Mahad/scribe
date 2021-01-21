@@ -1,0 +1,111 @@
+/* Below are styles for the nav*/
+
+.topnavcontainer {
+	margin-bottom: -0.3rem;
+}
+
+.topnav img {
+	height: 2.5rem;
+	padding: 1rem;
+	border-radius: 10px;
+}
+
+.topnav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.topnav ul {
+	list-style: none;
+	display: flex;
+	padding: 1rem;
+}
+
+.topnav .desk a {
+	padding: 0.3rem;
+}
+
+.topnav .desk a {
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: black;
+	margin: 1rem;
+}
+
+.topnav ul a:hover {
+	background-color: black;
+	color: white;
+}
+
+/* Below are the Styles for the header*/
+
+.head {
+	min-width: 100%;
+	background-color: #040d21;
+	background-size: cover;
+	margin-bottom: 1rem;
+}
+
+.head .headertext {
+	color: #9ef5d1;
+	letter-spacing: 0.1rem;
+	text-align: center;
+	padding: 6rem;
+}
+
+.headertext h1 {
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.headertext h2 {
+	font-size: 1.9rem;
+	color: white;
+	word-break: break-word;
+}
+
+/* media queries */
+
+/* media */
+
+@media (max-width: 1024px) {
+	.topnav {
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 834px) {
+	.topnav ul a:hover {
+		background-color: transparent;
+	}
+
+	.topnav img {
+		margin-left: 1rem;
+	}
+
+	.topnav {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 600px) {
+	.head .headertext {
+		padding: 5rem;
+	}
+
+	.head h1 {
+		font-size: 2rem;
+	}
+
+	.head h2 {
+		font-size: 1.35rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.head .headertext {
+		padding: 3rem;
+	}
+}

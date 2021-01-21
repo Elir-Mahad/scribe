@@ -1,0 +1,393 @@
+/* Blog description containers */
+
+.synopsis {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.synopsisbox {
+	display: flex;
+	flex-direction: column;
+	box-shadow: rgba(69, 67, 96, 0.3) 0px 5px 20px 0px;
+	position: relative;
+	width: calc((100% / 4) - 3%);
+	margin: 1%;
+	margin-bottom: 1rem;
+	padding: 1.5rem;
+	border-radius: 5px;
+	background-color: white;
+}
+/* 
+.synopsisbox:hover {
+	box-shadow: none;
+} */
+
+.synopsisbox h2 {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: black;
+	height: 100%;
+	/* background-color: green; */
+}
+
+.synopsisbox .blogimage {
+	height: 240px;
+	/* max-width: 100%; */
+	min-width: 100%;
+	object-fit: cover;
+}
+
+.synopsisbox p {
+	color: black;
+	height: 100%;
+	/* background-color: red; */
+}
+
+.synopsisbox button {
+	cursor: pointer;
+	margin-top: 1rem;
+	padding: 0.5rem;
+	background-color: #040d21;
+	color: white;
+	border: transparent;
+	border-radius: 5px;
+	font-size: 0.8rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.synopsisbox button:hover {
+	background-color: lightgrey;
+	color: black;
+}
+/* blog general styles */
+
+.blogs {
+	margin: 3rem;
+}
+
+.blog {
+	margin: 3rem;
+	padding-bottom: 1.5rem;
+}
+
+.titletaganimation {
+	display: flex;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-radius: 5px;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #040d21;
+}
+
+.title {
+	font-size: 1.7rem;
+	text-align: center;
+	color: white;
+}
+
+.hashtag {
+	font-size: 1.2rem;
+	color: white;
+	margin-right: 1.5rem;
+}
+
+.taganimation {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* actual blog post  */
+
+.blogbody {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+	padding-top: 1.5rem;
+}
+
+.blogbody img,
+.blog h2,
+.blog h3,
+.blog p,
+.blog li {
+	line-height: 2;
+	margin-bottom: 1rem;
+}
+
+.blog h2 {
+	font-size: 1.5rem;
+}
+
+.blog h3 {
+	font-size: 1.5rem;
+}
+
+.blog p {
+	font-size: 1.3rem;
+}
+
+.blog li {
+	font-size: 1.2rem;
+}
+
+.external_link {
+	/* this is for any hyperlinks */
+	text-decoration: none;
+	color: blue;
+}
+
+.highlighted {
+	/* this is for any sentence that i want to highlight */
+	color: darkgreen;
+}
+
+.blogbody img {
+	width: 100%;
+}
+
+.blogbody .focus {
+	color: darkred;
+}
+
+.blogbody .focusdifferent {
+	color: darkred;
+}
+
+.blogbody ul {
+	margin-left: 4rem;
+	list-style: circle;
+}
+
+.blogbody ol li,
+.blogbody ul li {
+	word-break: break-word;
+}
+
+.blogbody .code {
+	background-color: black;
+	color: white;
+	padding: 1rem;
+	list-style: none;
+	width: 65%;
+}
+
+.paragraph {
+	/* this applies only for blogs where i wrap elements in div that has this class */
+	padding-top: 1rem;
+}
+
+.paragraph h2 {
+	/* this applies only for blogs where i wrap elements in div that has this class */
+	padding-bottom: 2rem;
+}
+
+.noncodeimg {
+	border-radius: 10px;
+	width: 80%;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/* end of blog animation  */
+
+.boite {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 25px;
+	background-color: #040d21;
+	border-radius: 5px;
+}
+
+.cercle3 {
+	position: absolute;
+	padding: 0px;
+	width: 25px;
+	height: 25px;
+	border: 2px solid #9ef5d1;
+	border-radius: 50%;
+	background-color: transparent;
+
+	box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+
+	-webkit-animation: rotateCercle3 1s linear infinite;
+	-moz-animation: rotateCercle3 1s linear infinite;
+	-ms-animation: rotateCercle3 1s linear infinite;
+	animation: rotateCercle3 1s linear infinite;
+}
+
+.cercle3:nth-child(2) {
+	-webkit-animation-delay: 0.2s;
+	-moz-animation-delay: 0.2s;
+	-ms-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+
+.cercle3:nth-child(3) {
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-ms-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+.cercle3:nth-child(4) {
+	-webkit-animation-delay: 0.7s;
+	-moz-animation-delay: 0.7s;
+	-ms-animation-delay: 0.7s;
+	animation-delay: 0.7s;
+}
+
+/* media */
+
+@media (max-width: 1124px) {
+	.synopsisbox {
+		width: calc((100% / 3) - 3%);
+	}
+}
+
+@media (max-width: 834px) {
+	.synopsisbox {
+		width: calc((100% / 2) - 1%);
+	}
+
+	.blogs {
+		padding-top: 0rem;
+		margin: 0rem;
+		/* background-color: green; */
+	}
+
+	.titletaganimation {
+		padding-left: 0rem;
+		padding-right: 0rem;
+	}
+	.hashtag {
+		display: none;
+	}
+
+	.blogbody {
+		/* background-color: red; */
+		padding-left: 0rem;
+		padding-right: 0rem;
+		padding-bottom: 0rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.cercle3 {
+		display: none;
+	}
+
+	.title {
+		font-size: 1.35rem;
+	}
+
+	.blog h2 {
+		font-size: 1.3rem;
+	}
+
+	.blog h3 {
+		font-size: 1.3rem;
+	}
+
+	.blog p {
+		font-size: 1.2rem;
+	}
+
+	.blog li {
+		font-size: 1.1rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.synopsisbox {
+		width: calc((120% / 2) - 1%);
+	}
+
+	.blog {
+		margin: 1.5rem;
+	}
+
+	.blogbody ul {
+		margin-left: 2rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.synopsisbox {
+		width: calc((140% / 2) - 1%);
+	}
+}
+
+@media (max-width: 414px) {
+	.synopsisbox {
+		width: calc((160% / 2) - 1%);
+	}
+
+	.blogbody ul {
+		margin-left: 1rem;
+	}
+}
+
+/* animation for end of blog */
+
+@keyframes rotateCercle3 {
+	0% {
+		transform: rotateX(45deg) rotateY(0deg);
+	}
+	50% {
+		transform: rotateX(45deg) rotateY(90deg);
+	}
+	100% {
+		transform: rotateX(45deg) rotateY(180deg);
+	}
+}
+
+@-webkit-keyframes rotateCercle3 {
+	0% {
+		-webkit-transform: rotateX(45deg) rotateY(0deg);
+	}
+	50% {
+		-webkit-transform: rotateX(45deg) rotateY(90deg);
+	}
+	100% {
+		-webkit-transform: rotateX(45deg) rotateY(180deg);
+	}
+}
+
+@-moz-keyframes rotateCercle3 {
+	0% {
+		moz-transform: rotateX(45deg) rotateY(0deg);
+	}
+	50% {
+		moz-transform: rotateX(45deg) rotateY(90deg);
+	}
+	100% {
+		tmoz-transform: rotateX(45deg) rotateY(180deg);
+	}
+}
+
+@-ms-keyframes rotateCercle3 {
+	0% {
+		-ms-transform: rotateX(45deg) rotateY(0deg);
+	}
+	50% {
+		-ms-transform: rotateX(45deg) rotateY(90deg);
+	}
+	100% {
+		-ms-transform: rotateX(45deg) rotateY(180deg);
+	}
+}
