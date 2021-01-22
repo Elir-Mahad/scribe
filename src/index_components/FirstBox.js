@@ -34,7 +34,7 @@ function FirstBox() {
 				<header className="head">
 					<div className="wrapper">
 						<div className="headertext">
-							<h1>E'lir Mahad Mohamood</h1>
+							<h1>E'lir Mahad</h1>
 							<h2>A-posteriori theorizations on tech</h2>
 						</div>
 					</div>
