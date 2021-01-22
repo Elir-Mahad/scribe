@@ -10,7 +10,7 @@ function FirstBox() {
 				<div className="topnavcontainer">
 					<div className="wrapper">
 						<nav className="topnav">
-							<a href="https://elir-mahad.github.io/scribe/">
+							<a href="https://mahad-blog.netlify.app/">
 								<img
 									className=""
 									src={writing}
