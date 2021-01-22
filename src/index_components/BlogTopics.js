@@ -35,7 +35,7 @@ function BlogTopics() {
 					<Link
 						style={{ textDecoration: "none" }}
 						//
-						to="/devsummaries"
+						// to="/devsummaries"
 					>
 						<img
 							className="image"
@@ -56,7 +56,7 @@ function BlogTopics() {
 					<Link
 						//
 						style={{ textDecoration: "none" }}
-						to="/essaysummaries"
+						// to="/essaysummaries"
 					>
 						<img
 							className="image"
