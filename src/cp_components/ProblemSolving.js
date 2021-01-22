@@ -44,19 +44,19 @@ function ProblemSolving() {
 								>
 									competitive programming
 								</a>
-								. In regular programming, you learn how write code, and then you
-								build things. During this process, you are bound to learn how to
-								solve problems, but this is a skill that you learn indirectly.
-								Building projects improves your logical and critical thinking
-								skills; and as you build, you'll inevitably find yourself
-								thinking in a more systemtic manner. On the other hand, in
-								competitive programming, you are totally focused on 'solving
-								problems'. Here, we are dealing with 'math'. You are given a
-								problem and you have to solve it using some type of an equation
-								(algorithm). In order to succeed in this field, you must first
-								learn the equations (algorithms) and then you must practice the
-								problems. The whole process is truly exciting. If you want to
-								work as a developer for a
+								. In regular programming, you learn how to write code, and then
+								you build things. During this process, you are bound to learn
+								how to solve problems, but this is a skill that you learn
+								indirectly. Building projects improves your logical and critical
+								thinking skills; and as you build, you'll inevitably find
+								yourself thinking in a more systematic manner. On the other
+								hand, in competitive programming, you are totally focused on
+								'solving problems'. Here, we are dealing with 'math'. You are
+								given a problem and you have to solve it using some type of an
+								equation (algorithm). In order to succeed in this field, you
+								must first learn the equations (algorithms) and then you must
+								practice the problems. The whole process is truly exciting. If
+								you want to work as a developer for a
 								<a
 									className="external_link"
 									href="https://www.codingninjas.com/events/how-to-get-into-faang-companies"
@@ -64,7 +64,7 @@ function ProblemSolving() {
 									{" "}
 									FANG
 								</a>{" "}
-								company, then you have to learn comptitive programming. This
+								company, then you have to learn competitive programming. This
 								means that you have to develop, and refine, your problem solving
 								muscles. Below is the general process for solving problem.
 							</p>
@@ -169,7 +169,7 @@ function ProblemSolving() {
 									part of the problem?
 								</li>
 								<ul>
-									<li>The name of function could be: 'add'.</li>
+									<li>The name of the function could be: 'add'.</li>
 									<li>
 										{" "}
 										The variables 'num1' and 'num2' will store the different
@@ -204,7 +204,7 @@ function ProblemSolving() {
 									variables, doing something to the output after its produced,
 									combining the inputs in different ways, etc. The important
 									thing here is to be creative. For example: step one --> 1 + 1
-									= 2. Step two --> Take the output (2) and add it to first
+									= 2. Step two --> Take the output (2) and add it to the first
 									input (1) --> 2 + 1 = 3 . Then do something else ..
 								</li>
 								<li>
@@ -342,7 +342,7 @@ function ProblemSolving() {
 							</p>
 
 							<p>
-								Also, alot of interview problems are very complex and many
+								Also, a lot of interview problems are very complex and many
 								applicants end up running out of time. With this in mind, if you
 								write out the pseudo code, and then run out of time after
 								writing out the actual code for only half of the steps, then
@@ -378,9 +378,9 @@ function ProblemSolving() {
 							<p>
 								Most problems contain some parts that are difficult, and some
 								parts that are easy. Normally, when your'e doing a regular test,
-								your'e told finish all the easy questions first, and then deal
-								with the difficult questions afterwards; that way you'll have
-								more time to focus on the difficult questions. Since, most
+								your'e told to finish all the easy questions first, and then
+								deal with the difficult questions afterwards; that way you'll
+								have more time to focus on the difficult questions. Since, most
 								coding problems are time sensitive, you should use your time
 								effectively by:
 							</p>
@@ -411,7 +411,7 @@ function ProblemSolving() {
 								Refactoring is the process of restructuring the code (of an
 								application or piece of software) so as to improve its
 								operations, without altering its functionality. In other words,
-								you have find more efficient ways of organizing your code.
+								you have to find more efficient ways of organizing your code.
 							</p>
 
 							<p>
@@ -425,7 +425,7 @@ function ProblemSolving() {
 								<li>
 									Can you use this specific result or method for some other
 									problem? One of the benefits of solving a problem is that it
-									helps you develop an intution for solving other problems. So
+									helps you develop an intiution for solving other problems. So
 									whenever you write down a solution, its worthwile to think
 									whether there are any similarities between this problem and
 									solution, and other problems and solutions that you've
@@ -489,7 +489,7 @@ function ProblemSolving() {
 								</li>
 								<li>The lowercase statement was simplified.</li>
 								<li>
-									The if/else statemenets were compressed into a one-liner.
+									The if/else statements were compressed into a one-liner.
 								</li>
 							</ol>
 
@@ -521,8 +521,8 @@ function ProblemSolving() {
 							<p>
 								{" "}
 								With these two functions, we are now able to identify the number
-								of times each character appears in string. So if we want to know
-								the character count for the string "mahadd Q787", then the
+								of times each character appears in a string. So if we want to
+								know the character count for the string "mahadd Q787", then the
 								output will look like this:
 							</p>
 
