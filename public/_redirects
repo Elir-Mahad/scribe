@@ -1,6 +1,2 @@
 # Redirects from what the browser requests, to what we serve from the app
 /home              /
-
-/cpsummaries       /cpsummaries
-
-/problemsolving    / https://www.petsofnetlify.com
